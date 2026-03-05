@@ -13,7 +13,6 @@ public class Program
         registry.AddMember(professor1);
         registry.PlayAllDuties();
         Console.WriteLine(registry.GetMembersStatistics());
-        registry.GetMembersStatistics();
         professor1.ConductResearch("Grants");
         professor1.PerformDuties();
     }
